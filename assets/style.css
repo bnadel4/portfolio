@@ -1,0 +1,46 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #d9dcd6;
+  color: black;
+  border: 2px solid red;
+}
+
+ul {
+  display: flex; 
+  flex-direction: column;
+  /* align-self: center; */
+}
+
+nav li {
+  align-self: center;
+}
+
+li {
+  margin: .5em;
+}
+
+ul a {
+  color: black;
+  align-self: center;
+}
+
+ul a:hover {
+  font-size: larger;
+  /* color: rgb(80, 72, 72); */
+}
+
+main {
+  min-width: 371px;
+  align-items: center;
+}
+
+section {
+  margin: 1em;
+  border: 1em;
+  padding: 2em;
+  color: seagreen;
+}
+
+img {
+  max-width: 371px;
+}
