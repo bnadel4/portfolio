@@ -1,17 +1,46 @@
 body {
+  --light-color: #d9dcd6;
+  --dark-color: rgb(45, 45, 45);
+  --red-color: #C05858;
+  --cream-color: #FBF2D7;
   font-family: 'Poppins', sans-serif;
-  background-color: #d9dcd6;
-  color: black;
-  border: 2px solid red;
+  background-color: var(--light-color);
+  color: var(--dark-color);
 }
+
+header {
+  background-color: var(--red-color);
+  border: groove white;
+  border-width: 10px;
+  color: var(--cream-color);
+}
+
+#portrait {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  margin: 1em;
+}
+
+h1 {
+  padding: 1em;
+  font-size: 3em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: large;
+}
+
 
 ul {
   display: flex; 
   flex-direction: column;
-  /* align-self: center; */
 }
 
-nav li {
+h1 {
   align-self: center;
 }
 
@@ -20,27 +49,110 @@ li {
 }
 
 ul a {
-  color: black;
+  color: var(--cream-color);
   align-self: center;
 }
 
 ul a:hover {
   font-size: larger;
-  /* color: rgb(80, 72, 72); */
 }
 
-main {
-  min-width: 371px;
-  align-items: center;
+section section {
+  display: flex;
+  flex-direction: column;
+  margin: .5em auto;
+  border: .5em;
+  padding: .5em;
+  color: black;
+  width: 80%;
+  border-radius: .3em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-section {
+section h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 1em;
-  border: 1em;
-  padding: 2em;
-  color: seagreen;
 }
 
-img {
-  max-width: 371px;
+#projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
 }
+
+section section img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#about {
+  text-align: center;
+  margin: 3em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#feature-project {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#feature-project img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  color: black;
+  font-size: 1em;
+  font-weight: 200;
+  font-style: italic;
+  margin-bottom: .1em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  padding: 2em 0 2em 0;
+  text-align: center;
+}
+
+/* For Desktop */
+
+@media only screen and (min-width: 800px) {
+  #portrait {
+    width: 15%;
+    border-radius: 100%;
+  }
+  
+  #feature-project {
+    width: 70%;
+  }
+
+  section section {
+    width: 45%;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  ul {
+    flex-direction: row;
+  }
+}
+
