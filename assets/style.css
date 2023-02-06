@@ -17,9 +17,8 @@ header {
 
 #portrait {
   width: 60%;
-  margin: 0 auto;
+  margin: 1em auto;
   display: flex;
-  margin: 1em;
 }
 
 h1 {
@@ -32,6 +31,7 @@ h1 {
 h2 {
   text-align: center;
   font-size: large;
+  margin: 2em;
 }
 
 
@@ -58,20 +58,13 @@ ul a:hover {
 }
 
 section section {
-  display: flex;
-  flex-direction: column;
   margin: .5em auto;
   border: .5em;
   padding: .5em;
-  color: black;
-  width: 80%;
-  border-radius: .3em;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-section h2 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 1em;
+section section img:hover, #feature-project img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #projects {
@@ -85,7 +78,7 @@ section h2 {
 
 section section img {
   width: 100%;
-  margin: 0 auto;
+  margin: 1em auto;
 }
 
 #about {
@@ -105,6 +98,7 @@ section section img {
   object-fit: cover;
   width: 100%;
   height: auto;
+  margin: 1em auto;
 }
 
 .description {
