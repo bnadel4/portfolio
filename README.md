@@ -14,7 +14,9 @@ N/A
 Open [url](https://bnadel4.github.io/portfolio/) in web browser. Scroll and click links to interact.
 
 
-<!-- ![screenshot of horiseon webpage](./assets/images/horiseon-webpage.png) -->
+![screenshot of portfolio webpage for desktop](./assets/images/portfolioscreenshotdesktop.png)
+![screenshot of portfolio webpage for mobile](./assets/images/portfolioscreenshotmobile.png)
+
 
 ## Credits
 
